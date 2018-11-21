@@ -9,12 +9,12 @@ The code can specifically be found [here](https://deanattali.com/blog/building-s
 
 ## Purpose
 
-|    **Item**                                     | **Status** |
-	|-------------------------------------------------|------------|
-	| Add three features to the Shiny app, including:                   |
-	| Minimum 1 functional widget that modifies the output    | :thumbsup: |
-	| Minimum 1 change to the UI    | :thumbsup: |
-	| Describe your code's functionality    | :thumbsup: |
-	| Deploy the app online on shinyapp.io    | :thumbsup: |
-	| Update the README file, including a URL to the app online    | :thumbsup: |
-	| Acknowledge the source of the data set    | :thumbsup: |
+|    **Item**                                                  | **Status** |
+|--------------------------------------------------------------|------------|
+| Add three features to the Shiny app, including:                           |
+| Minimum 1 functional widget that modifies the output         | :thumbsup: |
+| Minimum 1 change to the UI                                   | :thumbsup: |
+| Describe your code's functionality                           | :thumbsup: |
+| Deploy the app online on shinyapp.io                         | :thumbsup: |
+| Update the README file, including a URL to the app online    | :thumbsup: |
+| Acknowledge the source of the data set                       | :thumbsup: |
