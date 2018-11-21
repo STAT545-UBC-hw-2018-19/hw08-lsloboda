@@ -1,6 +1,7 @@
 library(shiny)
 library(ggplot2)
 library(dplyr)
+library(DT)
 
 bcl <- read.csv("bcl-data.csv", stringsAsFactors = FALSE)
 
@@ -8,18 +9,21 @@ ui <- fluidPage(
   titlePanel("BC Liquor Store prices"),
   sidebarLayout(
     sidebarPanel(
-      sliderInput("priceInput", "Price", 0, 100, c(25, 40), pre = "$"),
+    	img(src = "drinks.jpg", align = "right", width = 250, height = 100),
+    	sliderInput("priceInput", "Price", 0, 100, c(25, 40), pre = "$"),
       radioButtons("typeInput", "Product type",
                   choices = c("BEER", "REFRESHMENT", "SPIRITS", "WINE"),
                   selected = "WINE"),
       uiOutput("countryOutput")
     ),
+    
     mainPanel(
-      plotOutput("coolplot"),
+    	img(src = "bcl-image.png", align = "right", width = 550, height = 55),
+    	plotOutput("coolplot"),
       br(), br(),
       tableOutput("results")
     )
-  )
+)
 )
 
 server <- function(input, output) {

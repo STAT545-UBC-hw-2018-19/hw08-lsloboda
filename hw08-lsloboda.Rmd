@@ -3,7 +3,6 @@ title: "hw08-lsloboda"
 output:
    github_document:
       toc: true
-
 always_allow_html: yes
 ---
 
@@ -15,4 +14,46 @@ The objective of the assignment is to add three features to the BC Liquor Shiny 
 
 ## Method
 
-bla
+I modify the app by adding three new features:
+
+1. Modify the output through a functional widget that sorts the results by price.
+
+Hint: Use checkboxInput() to get TRUE/FALSE values from the user.
+
+2. Change the UI by adding a few images. 
+
+3. Use the DT package to turn the current results table into an interactive table.
+
+Hint: Install the DT package, replace tableOutput() with DT::dataTableOutput() and replace renderTable() with DT::renderDataTable().
+| Add three features to the Shiny app, including:                           |
+| *Minimum 1 functional widget that modifies the output*         | :thumbsup: |
+| *Minimum 1 change to the UI*                                   | :thumbsup: |
+| Describe your code's functionality                           | :thumbsup: |
+| Deploy the app online on shinyapp.io                         | :thumbsup: |
+| Update the README file, including a URL to the app online    | :thumbsup: |
+| Acknowledge the source of the data set                       | :thumbsup: |
+
+Next I deploy the app by:
+
+* a
+* b
+* c
+
+## Code
+
+
+## App Deployment
+
+
+
+## Image Sources
+https://vinepair.com/articles/wine-sour-beer-guide/
+
+https://www.shopparkroyal.com/store/bc-liquor-store/
+
+
+## Resources
+https://stackoverflow.com/questions/21996887/embedding-image-in-shiny-app
+
+https://shiny.rstudio.com/articles/images.html
+
