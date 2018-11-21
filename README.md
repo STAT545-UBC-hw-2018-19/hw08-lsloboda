@@ -2,9 +2,10 @@
 
 ## Overview
 **This repo contains the files relevant to STAT 545 Homework 08.**
-	The homework file is located [here](https://github.com/STAT545-UBC-students/hw08-lsloboda/blob/master/hw08-lsloboda.md).
-	
-	The seed code and data are from [Dean Attali's tutorial](https://deanattali.com/blog/building-shiny-apps-tutorial). The code can specifically be found [here](https://deanattali.com/blog/building-shiny-apps-tutorial/#12-final-shiny-app-code).
+The homework file is located [here](https://github.com/STAT545-UBC-students/hw08-lsloboda/blob/master/hw08-lsloboda.md).
+
+The seed code and data are from [Dean Attali's tutorial](https://deanattali.com/blog/building-shiny-apps-tutorial). 
+The code can specifically be found [here](https://deanattali.com/blog/building-shiny-apps-tutorial/#12-final-shiny-app-code).
 
 ## Purpose
 
