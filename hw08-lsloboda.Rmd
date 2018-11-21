@@ -1,0 +1,18 @@
+---
+title: "hw08-lsloboda"
+output:
+   github_document:
+      toc: true
+
+always_allow_html: yes
+---
+
+# Making a Shiny app
+
+## Problem
+
+The objective of the assignment is to add three features to the BC Liquor Shiny app and deploy it.
+
+## Method
+
+bla
