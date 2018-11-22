@@ -119,7 +119,7 @@ The app code consists of two main parts: the user interface (UI) and the server.
 App Deployment
 --------------
 
-I setup an account on shinyapp.io and linked it with my github account. I installed the rsConnect() package, loaded the library, then used deployApp() to create the web app, found [here](https://lsloboda.shinyapps.io/hw08-lsloboda/)!
+I setup an account on shinyapp.io and linked it with my github account. I installed the rsConnect() package, loaded the library, then used deployApp() to create the web app, found [here](https://lsloboda.shinyapps.io/bclsloboda/)!
 
 Image Sources
 -------------
